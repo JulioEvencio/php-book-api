@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "0f22beaa-6d44-43c1-9355-ef3d6a00c83b",
+		"name": "php-book-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Not Found",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/php-book-api/",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/php-book-api/book",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/php-book-api/book/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"book 1\",\n    \"author\": \"author 1\",\n    \"publisher\": \"publisher\",\n    \"year_published\": \"2000-01-05\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/php-book-api/book",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"book 1\",\n    \"author\": \"author 1\",\n    \"publisher\": \"publisher Edit\",\n    \"year_published\": \"2000-01-05\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/php-book-api/book/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/php-book-api/book/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
