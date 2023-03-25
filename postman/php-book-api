@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "06d21aea-b39b-4180-9a27-a5bf9d75711d",
+		"name": "php-book-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Not Found",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/php-book-api/",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php-book-api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
